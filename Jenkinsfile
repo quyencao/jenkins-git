@@ -11,7 +11,7 @@ pipeline {
             }
         }
         stage("Build More") {
-            step {
+            steps {
                 sh 'echo "Hello hello"'
             }
         }
