@@ -10,5 +10,10 @@ pipeline {
                 '''
             }
         }
+        stage("Build More") {
+            step {
+                sh 'echo "Hello hello"'
+            }
+        }
     }
 }
